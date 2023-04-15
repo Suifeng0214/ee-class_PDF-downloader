@@ -16,8 +16,9 @@ Note: Make sure you have the necessary dependencies (wget, imagemagick, and Ghos
 
 ## Becareful
 This script will delete all .jpg .pdf files in the same directory as the script.
+There is no error handling mechanism.
 
 ## Input Explanation
 URL example: "https://ncueeclass.ncu.edu.tw/sysdata/doc/e/xxxxxxxxxx/images"<br>
-END: 下載 ee-class 上 [1, END] 頁的簡報並轉換成 pdf<br>
-NAME: 將生成 NAME.pdf 
+END: Download slides from ee-class for pages [1, END] and convert them to PDF.
+NAME: Generate NAME.pdf.
