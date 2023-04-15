@@ -20,5 +20,5 @@ There is no error handling mechanism.
 
 ## Input Explanation
 URL example: "https://ncueeclass.ncu.edu.tw/sysdata/doc/e/xxxxxxxxxx/images"<br>
-END: Download slides from ee-class for pages [1, END] and convert them to PDF.
+END: Download slides from ee-class for pages [1, END] and convert them to PDF.<br>
 NAME: Generate NAME.pdf.
