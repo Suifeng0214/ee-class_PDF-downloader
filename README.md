@@ -4,7 +4,7 @@
 ## Requirement
 - Bash environment like Ubuntu, WSL...
 
-### Command
+### Install
 ```
 sudo apt-get update
 sudo apt-get install wget imagemagick ghostscript
