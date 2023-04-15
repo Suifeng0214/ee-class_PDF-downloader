@@ -2,7 +2,7 @@
 
 # Input 說明
 # URL example: "https://ncueeclass.ncu.edu.tw/sysdata/doc/e/xxxxxxxxxx/images"
-# END: 將 [1, END] 的簡報下載成 pdf
+# END: 下載 ee-class 上 [1, END] 頁的簡報並轉換成 pdf
 # NAME: 將生成 NAME.pdf 
 
 read -p "請輸入網址 URL: " URL
