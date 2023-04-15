@@ -1,6 +1,9 @@
 # ee-class_PDF-downloader
  An easy script to crawl the slides and merge them into pdf file<br>
 （作者於WSL2中使用，由於WSL檔案共享之便利所以適用，最下方介紹相關 WSL2）
+
+![](https://i.imgur.com/sJNnVAi.gif) <br>
+
 ## Requirement
 - Bash environment like Ubuntu, WSL...
 
