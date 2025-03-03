@@ -1,6 +1,6 @@
 # ee-class_PDF-downloader
  An easy script to crawl the slides and merge them into pdf file<br>
-（作者於WSL2中使用，由於WSL檔案共享之便利所以適用，最下方介紹相關 WSL2）
+（作者於WSL2中使用，由於 WSL 檔案共享之便利所以適用，最下方介紹相關 WSL2）
 
 ![](https://i.imgur.com/sJNnVAi.gif) <br>
 
@@ -10,7 +10,7 @@
 ### Install
 ```
 sudo apt-get update
-sudo apt-get install wget imagemagick ghostscript
+sudo apt-get install -y wget imagemagick ghostscript img2pdf
 ```
 
 ## Usage
@@ -25,10 +25,9 @@ sudo apt-get install wget imagemagick ghostscript
 3. The script will download and convert the JPG files into PDF in batches.
 4. The generated PDF file will be saved with the specified name **in the same directory as the script**.<br>
 
-Note: Make sure you have the necessary dependencies (wget, imagemagick, and ghostscript) installed in your system before running the script.
+Note: Make sure you have the necessary dependencies (wget, imagemagick, img2pdf and ghostscript) installed in your system before running the script.
 
 ## Becareful
-This script will delete all .jpg .pdf files in the same directory as the script.<br>
 There is no error handling mechanism.
 
 ## Input Explanation
